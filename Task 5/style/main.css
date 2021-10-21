@@ -1,0 +1,177 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+}
+
+.box {
+  width: 40%;
+  height: 45%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+.boxPanel {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.boxPanel__input {
+  width: 70%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-left: 5px;
+}
+
+.boxPanel__input:focus {
+  outline: none;
+  border: 2px aqua solid;
+  -webkit-box-shadow: 0px 0px 0px 4px #c4e9e9;
+          box-shadow: 0px 0px 0px 4px #c4e9e9;
+}
+
+.boxPanel__button, .box__button {
+  width: 14%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.box__textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  resize: none;
+  margin-bottom: 5px;
+}
+
+.box__textarea:focus {
+  outline: none;
+  border: 2px aqua solid;
+  -webkit-box-shadow: 0px 0px 0px 4px #c4e9e9;
+          box-shadow: 0px 0px 0px 4px #c4e9e9;
+}
+
+.add {
+  background-color: orange;
+}
+
+.add:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 0px 4px #f7bd51;
+          box-shadow: 0px 0px 0px 4px #f7bd51;
+}
+
+.reset {
+  background-color: red;
+  color: white;
+}
+
+.reset:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 0px 4px #f56565;
+          box-shadow: 0px 0px 0px 4px #f56565;
+}
+
+.censor {
+  background-color: green;
+  color: white;
+  width: 100%;
+}
+
+.censor:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 0px 4px #73ce73;
+          box-shadow: 0px 0px 0px 4px #73ce73;
+}
+
+.badWord {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
